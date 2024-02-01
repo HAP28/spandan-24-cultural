@@ -1,0 +1,18 @@
+/* #menuTitle{
+    margin-right: 1rem;
+}
+
+.mat-toolbar{
+    height: 4rem;
+}
+@media (min-width: 900px){
+    #menu-icon{
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    .top-menu-item{
+        display: none;
+    }
+} */

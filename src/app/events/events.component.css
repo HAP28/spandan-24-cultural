@@ -1,0 +1,25 @@
+.container{
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.responsive-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 20px;
+}
+.event-card{
+    width: 22rem;
+}
+.event-card-content{
+    margin: 0.5rem;
+}
+.buttons{
+    display: grid;
+}
+.buttons button{
+    margin: 2px;
+}
