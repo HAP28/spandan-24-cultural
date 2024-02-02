@@ -1,22 +1,4 @@
-<!-- <div class="container">
-    <mat-card class="event-card">
-        <img mat-card-image src="../../assets/demo.png">
-        <mat-card-content class="event-card-content">
-            <mat-card-header>
-                <mat-card-title>Event Name</mat-card-title>
-            </mat-card-header>
-            <mat-chip-listbox aria-label="Fish selection">
-                <mat-chip-option>Date</mat-chip-option>
-                <mat-chip-option>Time</mat-chip-option>
-                <mat-chip-option color="accent">Venue</mat-chip-option>
-                <mat-chip disabled>Coordinator name</mat-chip>
-                <mat-chip disabled>Coordinator contact</mat-chip>
-            </mat-chip-listbox>
-            <button mat-raised-button color="primary">Register Now!!</button>
-        </mat-card-content>
-    </mat-card>
-</div> -->
-
+<div class="event-header">EVENTS</div>
 <div class="container responsive-grid">
     <mat-card *ngFor="let member of members">
         <img mat-card-image src={{member.url}}>

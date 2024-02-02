@@ -1,1 +1,22 @@
-<p>contact works!</p>
+<div class="contact-header">OUR TEAM</div>
+<div class="container responsive-grid">
+    <mat-card *ngFor="let member of members">
+        <img mat-card-image src={{member.url}}>
+        <mat-card-content class="contact-card-content">
+            <mat-card-header>
+                <mat-card-title>{{member.title}}</mat-card-title>
+            </mat-card-header>
+            <mat-chip-listbox aria-label="Fish selection">
+                <mat-chip>Date</mat-chip>
+                <mat-chip>Time</mat-chip>
+                <mat-chip>Venue</mat-chip>
+                <mat-chip><mat-icon>person</mat-icon>Harsh</mat-chip>
+                <mat-chip><mat-icon>call</mat-icon>8780343281</mat-chip>
+            </mat-chip-listbox>
+            <div class="buttons">
+                <button mat-raised-button color="primary">Register Now!!</button>
+                <button mat-raised-button color="accent">See the Rules!!</button>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
