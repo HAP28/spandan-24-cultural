@@ -1,0 +1,25 @@
+/* .carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-container img {
+    width: 70%;
+    height: auto;
+    display: block;
+} */
+
+.carousel-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-container img {
+    max-width: 100%; /* Adjust based on your requirement */
+    height: auto;
+    display: block; /* You can remove this if not necessary */
+  }
+  

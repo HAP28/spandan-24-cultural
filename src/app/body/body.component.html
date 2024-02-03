@@ -6,22 +6,36 @@
     </div>
 </section> -->
 
+<!-- <app-gallery></app-gallery> -->
 
 <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center center" fxLayoutGap="20px">
-    <!-- Text section with a button -->
-    <mat-card fxFlex="50" fxFlex.xs="100">
-      <mat-card-content>
-        <h2>Welcome to Our Site!</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ab mollitia asperiores aperiam, officiis a voluptas impedit ullam hic molestias. Quia molestiae obcaecati, ipsa ex eum aliquid ut repellat facere? Numquam saepe aliquam esse iure sapiente, nulla aut reiciendis voluptatem id quibusdam. Assumenda quas, recusandae doloribus vitae adipisci placeat sit inventore debitis fugiat eos accusantium natus architecto. Cupiditate doloribus voluptate vero, facere non omnis aliquid modi, veniam, ullam corporis expedita.</p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-raised-button color="primary">Learn More</button>
-      </mat-card-actions>
-    </mat-card>
-  
-    <!-- Image section -->
-    <mat-card fxFlex="50" fxFlex.xs="100">
-      <img mat-card-image align="right" src="../../assets/spandan2k23.png" alt="Placeholder image">
-    </mat-card>
-  </div>
-  
+  <!-- Text section with a button -->
+  <mat-card fxFlex="50" fxFlex.xs="100">
+    <mat-card-content>
+      <h2>Welcome to Spandan 2K24!</h2>
+      <p>Welcome to "Spandan," DIAT's annual cultural extravaganza! It's that time of the year again when creativity,
+        talent, and enthusiasm come alive, showcasing the vibrant spirit of our college community. </p>
+
+      <p>Spandan offers an array of events designed to captivate and challenge you. Dive into the adventure of our
+        Treasure Hunt, let your voice soar in the Singing Competition, and move to the rhythm in the Dancing
+        Competition. Fashionistas, get ready to strut on the runway in our Fashion Show, while quiz buffs can test their
+        wits in the Quiz Competition. And there's still more to explore! </p>
+
+      <p>This fest is not just about competition; it's a celebration of unity, a platform to display your talents, and a
+        chance to create lasting memories.</p>
+
+      <p>Join us in making this edition of Spandan unforgettable. Let's come together to celebrate our diversity, push
+        our limits, and enjoy every moment. Welcome to a journey of joy, discovery, and excellence. Welcome to Spandan!
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="gotoevent()">Participate now!!!</button>
+    </mat-card-actions>
+  </mat-card>
+
+  <!-- Image section -->
+  <mat-card fxFlex="50" fxFlex.xs="100">
+    <!-- <img mat-card-image src="../../assets/SpandanColor.png" alt="Placeholder image"> -->
+    <app-gallery></app-gallery>
+  </mat-card>
+</div>
