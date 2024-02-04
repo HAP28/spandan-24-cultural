@@ -10,9 +10,9 @@ export class EventsComponent {
 
   constructor(private router: Router) { }
   members: { title: string, date: string, time: string, venue: string, coordinator: string, contact: string, url: string, regLink: string }[] = [
-    { title: 'Mr. and Miss DIAT', date: '22/02/2024', time: 'time', venue: 'venue', coordinator: 'Anuska Dey', contact: '8910581667', url: '../../assets/Mr. and Miss DIAT/Bollywood_night.png', regLink: 'https://docs.google.com/forms/d/1heDcZ52TyBtxo02h4nWaUeIGMimQTju1RurEdXvY-aE/viewform?edit_requested=true' },
+    { title: 'Mr. and Miss DIAT', date: '22/02/2024', time: 'time', venue: 'venue', coordinator: 'Anuska Dey', contact: '8910581667', url: '../../assets/Mr.%20and%20Miss%20DIAT/Mr.%20and%20miss%20diat.png', regLink: 'https://docs.google.com/forms/d/1heDcZ52TyBtxo02h4nWaUeIGMimQTju1RurEdXvY-aE/viewform?edit_requested=true' },
     { title: 'Fashion Show', date: '22/02/2024', time: 'time', venue: 'CV Raman', coordinator: 'Prachetas P.', contact: '8309727709', url: '../../assets/Fashion%20Show/fashion_show.png', regLink: 'https://docs.google.com/forms/d/e/1FAIpQLScXt0zxVkL-Q9l9Fa-0Cd0F0Rn53t6odukSYdncPvrVB93qUQ/viewform?usp=sf_link' },
-    { title: 'Quiz', date: 'date', time: 'time here', venue: 'venue', coordinator: 'Rishabh Rai', contact: '8423344577', url: '../../assets/Quiz/quiz.png', regLink: 'https://forms.gle/zCzaEA1rn2UYvUrD8' },
+    { title: 'Quiz Competition', date: 'date', time: 'time here', venue: 'venue', coordinator: 'Rishabh Rai', contact: '8423344577', url: '../../assets/Quiz%20Competition/quiz.png', regLink: 'https://forms.gle/zCzaEA1rn2UYvUrD8' },
     { title: 'Essay and Short Story', date: 'date', time: 'time here', venue: 'venue', coordinator: ' Chrysolin D', contact: '8056128440', url: '../../assets/Essay%20and%20Short%20Story/essay.png', regLink: 'https://forms.gle/mvY3tPspGpEpgpec9' },
     { title: 'Instrumental Odyssey', date: 'date', time: 'time here', venue: 'CV Raman', coordinator: 'Meet Patel', contact: '8866589159', url: '../../assets/Instrumental%20Odyssey/instrumental.png', regLink: 'https://forms.gle/tZMSxYNm7txGxTMb9' },
     { title: 'Singing Competition', date: 'date', time: 'time here', venue: 'CV Raman', coordinator: 'Sreejani Biswas', contact: '9163135352', url: '../../assets/Singing%20Competition/singing.png', regLink: 'https://forms.gle/tZMSxYNm7txGxTMb9' },

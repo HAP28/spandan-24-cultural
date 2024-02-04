@@ -10,13 +10,15 @@ export class GalleryComponent {
   currentImageIndex = 0;
   imageUrls = [
     { src: 'assets/SpandanColor.png', alt: 'Spandan 2K24', title: 'Photo 2' },
-    { src: 'assets/Mr. and Miss DIAT/Bollywood_night.png', alt: 'Bollywood night', title: 'Photo 2' },
+    // { src: 'assets/Mr.%20and%20Miss%20DIAT/Mr.%20and%20miss%20diat.png', alt: 'Mr DIAT', title: 'Photo 2' },
     { src: 'assets/Essay%20and%20Short%20Story/essay.png', alt: 'Essay competition', title: 'Photo 2' },
     { src: 'assets/Instrumental%20Odyssey/instrumental.png', alt: 'Instrumental Odyssey', title: 'Photo 1' },
     { src: 'assets/Fashion%20Show/fashion_show.png', alt: 'Fashion Show', title: 'Photo 2' },
-    { src: 'assets/Quiz/quiz.png', alt: 'Quiz', title: 'Photo 2' },
+    { src: 'assets/Quiz%20Competition/quiz.png', alt: 'Quiz', title: 'Photo 2' },
     { src: 'assets/Singing%20Competition/singing.png', alt: 'Singing', title: 'Photo 2' },
     { src: 'assets/Treasure%20Hunt/treasure.png', alt: 'Treasure Hunt', title: 'Photo 2' },
+    { src: 'assets/Dance%20Competition/dance.png', alt: 'Dance', title: 'Photo 2' },
+    { src: 'assets/Photography/Photography.png', alt: 'Phtography', title: 'Photo 2' },
     // Add more photos as needed
   ];
 
