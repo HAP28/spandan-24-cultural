@@ -1,4 +1,5 @@
-<!-- <app-navbar></app-navbar> -->
+<ng-particles [id]="id" [options]="particlesOptions" [particlesInit]="particlesInit"
+  (particlesLoaded)="particlesLoaded($event)"></ng-particles>
 
 <mat-toolbar color="primary">
   <button mat-icon-button (click)="sidenav.toggle()" id="menu-icon" aria-label="Example icon-button with menu icon">
@@ -8,12 +9,10 @@
 
   <a mat-button routerLink="/" class="top-menu-item">HOME</a>
   <a mat-button routerLink="/events" class="top-menu-item">EVENTS</a>
-  <a mat-button routerLink="/gallery" class="top-menu-item">GALLERY</a>
-  <a mat-button routerLink="/contact" class="top-menu-item">CONTACT</a>
+  <!-- <a mat-button routerLink="/gallery" class="top-menu-item">GALLERY</a>
+  <a mat-button routerLink="/contact" class="top-menu-item">CONTACT</a> -->
 
 </mat-toolbar>
-
-
 
 <mat-sidenav-container>
   <mat-sidenav #sidenav [fixedInViewport]="true" [fixedTopGap]="60" mode="side">
@@ -25,20 +24,19 @@
         <a (click)="sidenav.close()" mat-button routerLink="/events"
           class="side-menu-item"><mat-icon>event</mat-icon>EVENTS</a>
       </div>
-      <div>
+      <!-- <div>
         <a (click)="sidenav.close()" mat-button routerLink="/gallery"
           class="side-menu-item"><mat-icon>photo_camera</mat-icon>GALLERY</a>
       </div>
       <div>
         <a (click)="sidenav.close()" mat-button routerLink="/contact"
           class="side-menu-item"><mat-icon>people</mat-icon>CONTACT</a>
-      </div>
+      </div> -->
     </div>
 
   </mat-sidenav>
   <mat-sidenav-content>
     <div class="main-container">
-
       <router-outlet></router-outlet>
     </div>
   </mat-sidenav-content>

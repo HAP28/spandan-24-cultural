@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgParticlesModule } from "ng-particles";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,7 +23,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     AppComponent, NavbarComponent, BodyComponent, EventsComponent, ContactComponent, GalleryComponent
   ],
   imports: [
-    BrowserModule, FlexLayoutModule,
+    BrowserModule, FlexLayoutModule, NgParticlesModule,
     AppRoutingModule, MatToolbarModule, MatButtonModule, MatIconModule, MatSidenavModule, MatCardModule, MatChipsModule
   ],
   providers: [

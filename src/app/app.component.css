@@ -5,6 +5,7 @@
 
 #menuTitle{
     margin-right: 1rem;
+    z-index: 999;
 }
 
 .mat-toolbar{
@@ -23,7 +24,6 @@
 .main-container{
     margin: 1rem;
 }
-
 @media (min-width: 900px){
     #menu-icon{
         display: none;

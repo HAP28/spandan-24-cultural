@@ -1,4 +1,4 @@
-<div class="event-header">EVENTS</div>
+<!-- <div class="event-header">EVENTS</div> -->
 <div class="container responsive-grid">
     <mat-card *ngFor="let member of members; let i = index">
         <img mat-card-image src={{member.url}}>
@@ -13,7 +13,7 @@
                 <mat-chip>{{member.coordinator}}</mat-chip>
                 <mat-chip>{{member.contact}}</mat-chip>
             </mat-chip-listbox>
-            <div class="buttons">
+            <div class="buttons" *ngIf="member.regLink!=''">
                 <button mat-raised-button color="primary" (click)="regLink(i)">Register Now!!</button>
                 <button mat-raised-button color="accent" (click)="downloadMyFile(member.title)">See the Rules!!</button>
             </div>
