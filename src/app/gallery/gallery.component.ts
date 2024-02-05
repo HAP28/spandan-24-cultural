@@ -20,6 +20,8 @@ export class GalleryComponent {
     { src: 'assets/Dance%20Competition/dance.png', alt: 'Dance', title: 'Photo 2' },
     { src: 'assets/Photography/Photography.png', alt: 'Phtography', title: 'Photo 2' },
     { src: 'assets/Rangoli%20and%20painting/rangoli.png', alt: 'Rangoli', title: 'Photo 2' },
+    { src: 'assets/Antakshari/antakshari.png', alt: 'Antakshari', title: 'Photo 2' },
+    { src: 'assets/Flashmob/flashmob.png', alt: 'Flashmob', title: 'Photo 2' },
     // Add more photos as needed
   ];
 

@@ -15,7 +15,7 @@
             </mat-chip-listbox>
             <div class="buttons" *ngIf="member.regLink!=''">
                 <button mat-raised-button color="primary" (click)="regLink(i)">Register Now!!</button>
-                <button mat-raised-button color="accent" (click)="downloadMyFile(member.title)">See the Rules!!</button>
+                <button *ngIf="member.title!='Flashmob'" mat-raised-button color="accent" (click)="downloadMyFile(member.title)">See the Rules!!</button>
             </div>
         </mat-card-content>
     </mat-card>
