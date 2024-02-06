@@ -21,7 +21,7 @@ export class EventsComponent {
     { title: 'Photography', date: 'During Spandan', time: 'Whole day', venue: 'Whole campus', coordinator: 'Anuska Dey', contact: '8910581667', url: '../../assets/Photography/Photography.png', regLink: 'https://forms.gle/2DQH2PLjTLg2XXZP7' },
     { title: 'Rangoli and painting', date: 'date TBD', time: 'time TBD', venue: 'Ganga Hostel', coordinator: 'Pragati Beral', contact: '7507089068', url: '../../assets/Rangoli%20and%20painting/rangoli.png', regLink: 'https://forms.gle/nWMLAdxXp1ncrt727' },
     { title: 'Antakshari', date: 'date TBD', time: 'time TBD', venue: 'C V Raman', coordinator: 'Sanchit Verma', contact: '8077450264', url: '../../assets/Antakshari/antakshari.png', regLink: 'https://docs.google.com/forms/d/e/1FAIpQLScyfspPYSsRz_DH-6ULN8rO27QFuWECuWD9KpqbGNDbL0q1rw/viewform?usp=sf_link' },
-    { title: 'Flashmob', date: 'date TBD', time: 'time TBD', venue: 'Basketball court', coordinator: 'Tharikha Joseph', contact: '6385209215', url: '../../assets/Flashmob/flashmob.png', regLink: '' },
+    { title: 'Flashmob', date: 'date TBD', time: 'time TBD', venue: 'Basketball court', coordinator: 'Tharikha Joseph', contact: '6385209215', url: '../../assets/Flashmob/flashmob.png', regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSebvZLb4loaRILo2FnRU3leM_iPueedIOEh8xdhtGm4PHaPlw/viewform?vc=0&c=0&w=1&flr=0' },
   ];
 
   downloadMyFile(title: string) {
