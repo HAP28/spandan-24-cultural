@@ -27,3 +27,8 @@ img{
 .buttons button{
     margin: 2px;
 }
+
+#vote{
+    background-color: red;
+    color: white;
+}

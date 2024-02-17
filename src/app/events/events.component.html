@@ -14,7 +14,8 @@
                 <mat-chip>{{member.contact}}</mat-chip>
             </mat-chip-listbox>
             <div class="buttons" *ngIf="member.regLink!=''">
-                <button mat-raised-button color="primary" (click)="regLink(i)">Register Now!!</button>
+                <button *ngIf="member.title!='Mr. and Miss DIAT'" mat-raised-button color="primary" (click)="regLink(i)">Register Now!!</button>
+                <button id="vote" *ngIf="member.title=='Mr. and Miss DIAT'" mat-raised-button (click)="vote()">Vote Now !!</button>
                 <button *ngIf="member.title!='Flashmob'" mat-raised-button color="accent" (click)="downloadMyFile(member.title)">See the Rules!!</button>
             </div>
         </mat-card-content>

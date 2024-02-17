@@ -17,10 +17,12 @@ import { BodyComponent } from './body/body.component';
 import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
+// import { SportsComponent } from './sports/sports.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
-    AppComponent, NavbarComponent, BodyComponent, EventsComponent, ContactComponent, GalleryComponent
+    AppComponent, NavbarComponent, BodyComponent, EventsComponent, ContactComponent, GalleryComponent, PagenotfoundComponent
   ],
   imports: [
     BrowserModule, FlexLayoutModule, NgParticlesModule,
